@@ -35,8 +35,8 @@
 <body>
     <!-- header start -->
     <header>
-        <!-- pre-nav for moblie only start -->
-        <div class="container mx-auto mt-5 font-inter flex  justify-between px-5 lg:hidden">
+        <!-- pre-nav for mobile only start -->
+        <div class=" container mx-auto mt-5 font-inter flex  justify-between px-5 lg:hidden">
             <div>
                 <p>9:41</p>
             </div>
@@ -46,10 +46,10 @@
                 <i class="fa-solid fa-battery-full"></i>
             </div>
         </div>
-        <!-- pre-nav for moblie only end -->
+        <!-- pre-nav for mobile only end -->
 
         <!-- nav start -->
-        <nav class="container mx-auto my-2 lg:my-12 font-manrope">
+        <nav class=" container mx-auto my-2 lg:my-12 pr-2 lg:px-32 font-manrope">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -90,7 +90,38 @@
         <!-- nav end -->
 
         <!-- banner start -->
-        <div></div>
+        <div class="container mx-auto px-4 lg:px-32">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./images/1.png" class="  w-full h-52 lg:h-[550px]" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- banner end -->
     </header>
     <!-- header end -->
